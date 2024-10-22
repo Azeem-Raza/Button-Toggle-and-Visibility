@@ -72,7 +72,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btn1.setTranslationY(btn1.getTranslationY() + 50);
+            }
+        });
 
 
 
