@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout layout = new LinearLayout(this);
         layout.setOrientation(LinearLayout.VERTICAL);
 
+        btn1 = new Button(this);
+        btn2 = new Button(this);
+
+
 
 
         //set button texts
