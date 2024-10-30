@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         //set button texts
-        btn1.setText("1:Toggle Button2");
-        btn2.setText("2:Move Button1");
+        btn1.setText("Toggle Button");
+        btn2.setText("Move Button");
         //generate Id for each buttons
         btn1.setId(LinearLayout.generateViewId());
         btn2.setId(LinearLayout.generateViewId());
@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
         btn2.setBackgroundColor(Color.GREEN);
 
         //set layout parameters
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+        LinearLayout.LayoutParams params =
+                new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
         );
@@ -82,10 +83,6 @@ public class MainActivity extends AppCompatActivity {
                 btn1.setTranslationY(btn1.getTranslationY() + 50);
             }
         });
-
-
-
-
 
 
 
